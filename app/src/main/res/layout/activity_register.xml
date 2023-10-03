@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Register">
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="400dp"-->
+<!--        android:src="@drawable/quizimg"-->
+<!--        android:id="@+id/login_img"/>-->
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="  Enter your name"
+        android:ems="20"
+        android:background="@color/white"
+        android:layout_margin="12dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="  E-mail"
+        android:background="@color/white"
+        android:ems="20"
+        android:textColor="@color/black"
+        android:layout_margin="12dp"
+        android:textSize="25dp"
+        android:id="@+id/mail"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="  Password"
+        android:layout_margin="12dp"
+        android:background="@color/white"
+        android:ems="20"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:id="@+id/password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Login"
+        android:textSize="25dp"
+        android:id="@+id/login_btn"/>
+
+</LinearLayout>

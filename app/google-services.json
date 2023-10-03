@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691955200333",
+    "project_id": "sandy-f10cb",
+    "storage_bucket": "sandy-f10cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691955200333:android:b670b2bd58148597ce8704",
+        "android_client_info": {
+          "package_name": "com.example.sandy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB66m9MMO0vPZ1zzf6lB61gZnOZF7iVSxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
